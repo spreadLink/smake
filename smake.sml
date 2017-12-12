@@ -33,7 +33,7 @@ fun new name =
       open OS.FileSys
       fun subDir (p, c) = p ^ "/" ^ c
       val this = subDir (getDir (), name)
-      val rmString = "#" ^ name ^ "\n"
+      val rmString = "# " ^ name ^ "\n"
   in
       (mkDir this;
        mkDir (subDir (this, "src"));
