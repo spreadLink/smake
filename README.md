@@ -2,7 +2,7 @@
 
 And with simple i mean effectively redundant, i am just a lazy slob :)
 
-Use: `smake new `name'`
+Use: ``smake new `name'``
 
 Produces:
 
